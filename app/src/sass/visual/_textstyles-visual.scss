@@ -1,0 +1,47 @@
+a {
+    color: $linkmain;
+}
+
+a:link {
+    color: $linkmain;
+}
+
+a:visited {
+    color: $linkvisited;
+}
+
+a:focus,
+a:hover,
+a:active {
+    color: $linkactive;
+}
+
+tt, code {
+    color: #555;
+    background-color: #E8E8E8;
+}
+
+pre {
+    background-color: #F2F2F2;
+    color: #555;
+}
+
+h1 span {
+    color: #666;
+}
+
+.status-timed {
+    color: #A80;
+}
+
+.status-published {
+    color: #7FA800;
+}
+
+.status-held {
+    color: #CA2300;
+}
+
+.status-draft {
+    color: #0569E2;
+}

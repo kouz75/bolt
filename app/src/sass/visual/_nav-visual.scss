@@ -1,0 +1,206 @@
+/** Primary */
+
+
+
+/* Top Right Navigation Dropdown Styles */
+.navbar-top-links {
+
+    .dropdown-menu {
+
+        & > li a {
+            color: $dropdown-link-color;
+        }
+
+        button:hover {
+            background-color: $dropdown-link-hover-bg;
+            color: $dropdown-link-hover-color;
+        }
+
+    }
+
+}
+
+.navbar-static-top .nav > li {
+    & > a {
+        color: $sidebarlink;
+    }
+    &:hover > a,
+    :focus {
+        color: $sidebarlinkhover;
+        background: lighten($sidebarbackgroundhover, 5);
+    }
+}
+
+.nav .open>a,
+.nav .open>a:hover,
+.nav .open>a:focus {
+    background-color: lighten($sidebarbackgroundhover, 5);
+
+}
+
+// Media Query tweak!
+@media (max-width: 979px) {
+
+    .navbar-collapse .navbar > li > a,
+    .navbar-collapse .dropdown-menu a {
+        color: #555 !important;
+    }
+}
+
+/** Seconadary */
+
+
+/*
+ * We have 4 states of the secondary navigation:
+ * Small mode: (triggered by menu-'hamburger' ):
+ * - Hidden (#navpage-wrapper.nav-secondary-opened not set)
+ * - Shown (#navpage-wrapper.nav-secondary-opened set)
+ * Large mode (triggered by expand/collapse button):
+ * - Expanded (#navpage-wrapper.nav-secondary-collapsed not set)
+ * - Collapsed (#navpage-wrapper.nav-secondary-collapsed set)
+ */
+
+/**** MODE: Hidden ****/
+
+#navpage-secondary {
+    box-shadow: -5px 0 0 rgba(0, 0, 0, 0.15) inset;
+    background: $sidebarbackground;
+    color: $sidebartextcolour;
+
+    ul.submenu {
+        background: lighten($sidebarbackground, 10);
+
+        & > li.subdivider {
+            border-top: 1px dashed lighten($sidebarbackground, 20);
+        }
+
+        a {
+            color: $sidebarlink;
+        }
+    }
+}
+
+/**** MODE: Collapsed ****/
+
+@include respond-to(medium-screens) {
+    #navpage-wrapper.nav-secondary-collapsed {
+
+        #navpage-secondary {
+            box-shadow: -5px 0px 0px rgba(0, 0, 0, 0.2) inset;
+            color: $sidebartextcolourcollapsed;
+
+            .nav > li {
+                a {
+                    color: $sidebartextcolourcollapsed;
+                }
+            }
+        }
+
+    }
+
+    #navpage-wrapper.nav-secondary-collapsed-hoverable {
+
+        #navpage-secondary:hover {
+            box-shadow: 8px 0px 0px rgba(0, 0, 0, 0.2);
+            color: $sidebartextcolour;
+
+            .nav > li {
+                a {
+                    color: $sidebarlink;
+                }
+            }
+        }
+    }
+}
+
+/* --------------- */
+
+#navpage-secondary .nav > li {
+    & > a,
+    & > form,
+    & > em {
+        color: $sidebarlink;
+    }
+
+    a.menu-pop:before {
+        color: darken($sidebarlink, 25);
+    }
+
+    &:hover > a,
+    a:focus {
+        color: $sidebarlinkhover;
+        background: $sidebarbackgroundhover;
+        i.icon {
+            background: $sidebarlinkhover;
+        }
+    }
+
+    & > em {
+        color: lighten($sidebarbackgroundactive, 40);
+
+        i.icon {
+            background: none;
+            color: lighten($sidebarbackgroundactive, 40);
+        }
+    }
+
+    &.active > a {
+        color: $sidebarlinkactive;
+        background: $sidebarbackgroundactive;
+        i.icon {
+            background: $sidebarlinkactive;
+        }
+    }
+
+    &.search {
+
+        form {
+            box-shadow: none;
+        }
+
+        i.icon {
+            background: none;
+            color: $sidebarlink;
+        }
+
+    }
+
+    i.icon {
+        background: $sidebarlink;
+        border-radius: 3px;
+        color: #333;
+    }
+
+    .popover-content {
+        color: #444;
+
+
+        a {
+            $indent: 32px;
+
+            background: transparent;
+            color: $dropdown-link-color !important;
+
+        }
+
+        a:hover {
+            color: $dropdown-link-hover-color !important;
+            background-color: $dropdown-link-hover-bg;
+            text-decoration: none;
+        }
+
+    }
+}
+
+/**** Collapse/expand buttons ****/
+
+/* Never show mall mode */
+
+.nav-secondary-collapse,
+.nav-secondary-expand {
+
+    i.icon {
+        background: none !important;
+        color: $sidebarlink !important;
+    }
+}

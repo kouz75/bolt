@@ -1,0 +1,18 @@
+footer  {
+    border-top: 1px solid #CCC;
+    background-color: #E7E7E7;
+    color: #999;
+}
+
+.bolt-footer-mini  {
+    background: darken($sidebarbackground, 5);
+    color: darken($sidebartextcolour, 30);
+
+    a {
+        color: darken($sidebarlink, 30) !important;
+    }
+}
+
+.bolt-footer-hidden {
+    display: none;
+}

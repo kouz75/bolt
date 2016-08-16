@@ -1,6 +1,11 @@
 .morelink {
-    color: rgba(25, 71, 112, 0.8);
-    text-shadow: none;
+    color: $cello;
+    //text-shadow: none;
+
+    &:visited {
+        color: $cello;
+    }
+
 }
 
 .dashboardlisting {
@@ -8,21 +13,21 @@
 
     th,
     td {
-        border-bottom: 1px solid $table-border-color;
+        border-bottom: 1px solid $alto;
     }
 
     th {
-        background-color: #F2F2F2;
-        color: #888;
-        border-bottom: 1px solid #E7E7E7;
+        background-color: $concrete;
+        color: $dove;
+        border-bottom: 1px solid $alto;
     }
 
     th h2 {
-        color: #666;
+        color: $mine;
     }
 
     tr {
-        background-color: #FFF;
+        background-color: $white;
     }
 
     td {
@@ -33,11 +38,11 @@
     td.username,
     td.actions,
     td.listthumb  {
-        color: #666;
+        color: $mine;
     }
 
     td.excerpt span {
-        color: #777;
+        color: $mine;
     }
 
 }

@@ -1,6 +1,6 @@
 body {
-    background: $basebgcolour;
-    color: $bodytextcolour;
+    background: $white;
+    color: $dove;
 }
 
 /**
@@ -8,8 +8,8 @@ body {
  */
 
 div.extension {
-    border: 1px solid #CCC;
-    background: #FFF;
+    border: 1px solid $alto;
+    background: $white;
     border-radius: 2px;
     box-shadow: 2px 2px 0px rgba(0, 0, 0, .3);
 }
@@ -18,11 +18,11 @@ div.extension {
  * Fancy, simple blockquotes
  */
 blockquote.quote {
-    color: #AAA;
+    color: $chalice;
 }
 
 blockquote.quote cite {
-    color: #999;
+    color: $chalice;
 }
 
 /**
@@ -44,6 +44,6 @@ table.dataTable thead .sorting:after {
 }
 
 .show-grid [class^="col-"] {
-    border: 1px solid #ddd;
-    background-color: #eee !important;
+    border: 1px solid $alto;
+    background-color: $silver !important;
 }

@@ -1,47 +1,47 @@
 a {
-    color: $linkmain;
+    color: $cello;
 }
 
 a:link {
-    color: $linkmain;
+    color: $cello;
 }
 
 a:visited {
-    color: $linkvisited;
+    color: $cello;
 }
 
 a:focus,
 a:hover,
 a:active {
-    color: $linkactive;
+    color: lighten($cello, 20);
 }
 
 tt, code {
-    color: #555;
-    background-color: #E8E8E8;
+    color: $dove;
+    background-color: $concrete
 }
 
 pre {
-    background-color: #F2F2F2;
-    color: #555;
+    background-color: $concrete
+    color: $dove;
 }
 
 h1 span {
-    color: #666;
+    color: $dove;
 }
 
 .status-timed {
-    color: #A80;
+    color: $meteor;
 }
 
 .status-published {
-    color: #7FA800;
+    color: $limeade;
 }
 
 .status-held {
-    color: #CA2300;
+    color: $milano;
 }
 
 .status-draft {
-    color: #0569E2;
+    color: $shipe-cove;
 }

@@ -2,21 +2,19 @@
     // Result.
     .select2-results__option {
 
-
         small {
-
-            color: #999;
+            color: $chalice;
         }
     }
 
     // Highlighted result.
     .select2-results__option--highlighted small {
-        color : #fff; // better contrast.
+        color : $white; // better contrast.
     }
 
     // Input field.
     .select2-search__field {
-        color: #000 !important;
-        background: #fff !important;
+        color: $black !important;
+        background: $white !important;
     }
 }

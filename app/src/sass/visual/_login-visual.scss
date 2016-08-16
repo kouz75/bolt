@@ -1,16 +1,16 @@
 body.login {
 
-    background-color: #F8F8F8;
+    background-color: $concrete;
 
     .panel {
         box-shadow: 0 0 150px rgba(0, 0, 0, .15);
     }
 
     .togglepass {
-        color: #999;
+        color: $chalice;
     }
 
     .control-label {
-        color: #8F8F8F;
+        color: $chalice;
     }
 }

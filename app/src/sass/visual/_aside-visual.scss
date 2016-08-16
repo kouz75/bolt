@@ -10,11 +10,11 @@ aside {
   //  }
 
     .panel {
-        border-color:  $panel-default-border;
+        border-color:  $concrete;
     }
 
     .panel-body > ul li small {
-        color: #777;
+        color: $dove;
     }
 
 }

@@ -1,4 +1,4 @@
-# app/resources/translations/sv_SE/contenttypes.sv_SE.yml – generated on 2016-05-02 21:10:55 Europe/Paris
+# app/resources/translations/sv_SE/contenttypes.sv_SE.yml – written on 2016-09-08 21:27:00 Europe/Berlin
 
 # Warning: Translations are in the process of being moved to a new keyword-based translation
 #          at the moment. This is an ongoing process. Translations currently in the 
@@ -10,55 +10,45 @@
 
 #  no unused messages
 #  no untranslated messages
-#  41 untranslated keyword based messages
+#  no untranslated keyword based messages
 #  no translations
-# 100 keyword based translations
+# 142 keyword based translations
 
-#--- 41 untranslated keyword based messages -----------------------------------
+#--- 142 keyword based translations -------------------------------------------
 
-"contenttypes.blocks.description": # "The **Blocks** contenttype is a so-called 'resource contenttype'. This means that it can be used to manage smaller pieces of content, like the 'about us' text, an 'our address' in the footer, or similar short blurbs of text."
-"contenttypes.blocks.group.block": # "Block"
-"contenttypes.blocks.name.plural": # "Blocks"
-"contenttypes.blocks.name.singular": # "Block"
-"contenttypes.blocks.text.actions-all": # "Actions for Blocks"
-"contenttypes.blocks.text.actions-one": # "Actions for this Block"
-"contenttypes.blocks.text.created": # "This Block was created"
-"contenttypes.blocks.text.delete": # "Delete Block"
-"contenttypes.blocks.text.duplicate": # "Duplicate Block"
-"contenttypes.blocks.text.duplicated-finalize": # "Content was duplicated. Click 'Save Block' to finalize."
-"contenttypes.blocks.text.edit": # "Edit Block"
-"contenttypes.blocks.text.invalid-field": # "Can't set %field% in Block: Not a valid field."
-"contenttypes.blocks.text.invalid-relation": # "In the contenttype for 'Block', the relation '%relation%' is defined, which is not a valid contenttype. Please edit contenttypes.yml, and correct this."
-"contenttypes.blocks.text.last-modified": # "Last modified Blocks"
-"contenttypes.blocks.text.new": # "New Block"
-"contenttypes.blocks.text.no-latest": # "No latest Block"
-"contenttypes.blocks.text.no-proper-type": # "In the contenttype for 'Block', the field '%field%' has 'type: %type%', which is not a proper field type. Please edit contenttypes.yml, and correct this."
-"contenttypes.blocks.text.no-recent": # "No recent Block."
-"contenttypes.blocks.text.none-available": # "No Blocks available."
-"contenttypes.blocks.text.not-existing": # "The Block you were looking for does not exist. It was probably deleted, or it never existed."
-"contenttypes.blocks.text.not-saved-yet": # "This Block has not been saved yet."
-"contenttypes.blocks.text.overview": # "Blocks overview"
-"contenttypes.blocks.text.publish": # "Publish Block"
-"contenttypes.blocks.text.recent": # "Recent Blocks"
-"contenttypes.blocks.text.recent-changes-one": # "Recent changes to this Block"
-"contenttypes.blocks.text.recently-edited": # "Recently edited Blocks"
-"contenttypes.blocks.text.reserved-name": # "In the contenttype for 'Block', the field '%field%' is defined, which is a reserved name. Please edit contenttypes.yml, and correct this."
-"contenttypes.blocks.text.save": # "Save Block"
-"contenttypes.blocks.text.saved-changes": # "The changes to the Block have been saved."
-"contenttypes.blocks.text.saved-new": # "The new Block has been saved."
-"contenttypes.blocks.text.saving-impossible": # "Could not save Block."
-"contenttypes.blocks.text.show-more": # "More Blocks"
-"contenttypes.blocks.text.view": # "View Blocks"
-"contenttypes.blocks.text.wrong-use-field": # "In the contenttype for 'Block', the field '%field%' has 'uses: %uses%', but the field '%uses%' does not exist. Please edit contenttypes.yml, and correct this."
-"contenttypes.entries.text.invalid-relation": # "In the contenttype for 'Entry', the relation '%relation%' is defined, which is not a valid contenttype. Please edit contenttypes.yml, and correct this."
-"contenttypes.entries.text.recent-changes-one": # "Recent change to this Entry"
-"contenttypes.pages.text.invalid-relation": # "In the contenttype for 'Page', the relation '%relation%' is defined, which is not a valid contenttype. Please edit contenttypes.yml, and correct this."
-"contenttypes.pages.text.recent-changes-one": # "Recent change to this Page"
-"contenttypes.showcases.group.repeater": # "Repeater"
-"contenttypes.showcases.text.invalid-relation": # "In the contenttype for 'Showcase', the relation '%relation%' is defined, which is not a valid contenttype. Please edit contenttypes.yml, and correct this."
-"contenttypes.showcases.text.recent-changes-one": # "Recent change to this Showcase"
-
-#--- 100 keyword based translations -------------------------------------------
+contenttypes.blocks.description: "**Blocks** innehållstypen är en innehållstyp för resurser menade att användas på flera ställen på en sida, t.ex kontaktinformation eller andra mindre bitar av innehåll. Till exempel används den ofta för 'om oss' texter eller adressinformation i en sidfot."
+contenttypes.blocks.group.content: "Block"
+contenttypes.blocks.group.media: "Media"
+contenttypes.blocks.name.plural: "blocken"
+contenttypes.blocks.name.singular: "block"
+contenttypes.blocks.text.actions-all: "Åtgärder för Block"
+contenttypes.blocks.text.actions-one: "Åtgärder för dessa Blocken"
+contenttypes.blocks.text.created: "Detta blocket har skapats"
+contenttypes.blocks.text.delete: "Radera block"
+contenttypes.blocks.text.duplicate: "Duplicera block"
+contenttypes.blocks.text.duplicated-finalize: "Innehållet har duplicerats. Klicka på 'Spara block' för att spara."
+contenttypes.blocks.text.edit: "Redigera block"
+contenttypes.blocks.text.invalid-field: "Kan inte spara %field% i block: Inte ett giltigt fält."
+contenttypes.blocks.text.last-modified: "Senast redigerade block"
+contenttypes.blocks.text.new: "Nytt block"
+contenttypes.blocks.text.no-latest: "Inga nyligen redigerade block"
+contenttypes.blocks.text.no-proper-type: "I innehållstypen 'block', fältet '%field%' har 'typ: %type%', som inte är ett korrekt fält. Redigera contenttypes.yml för att lösa det."
+contenttypes.blocks.text.no-recent: "Inga block."
+contenttypes.blocks.text.none-available: "Inga block tillgängliga."
+contenttypes.blocks.text.not-existing: "Blocket du letar efter finns inte. Den har förmodligen blivit borttagen eller så har den aldrig funnits."
+contenttypes.blocks.text.not-saved-yet: "Detta blocket har inte sparats."
+contenttypes.blocks.text.overview: "Blocköverblick"
+contenttypes.blocks.text.publish: "Publicera blocket"
+contenttypes.blocks.text.recent: "Senaste block"
+contenttypes.blocks.text.recently-edited: "Nyligen redigerade block"
+contenttypes.blocks.text.reserved-name: "I innehållstypen 'block', fältet '%field%' är definerat, men namnet är reserverat. Redigera contenttypes.yml för att lösa det."
+contenttypes.blocks.text.save: "Spara block"
+contenttypes.blocks.text.saved-changes: "Ändringarna i blocket har sparats."
+contenttypes.blocks.text.saved-new: "Blocket har sparats."
+contenttypes.blocks.text.saving-impossible: "Kunde inte spara blocket."
+contenttypes.blocks.text.show-more: "Fler block"
+contenttypes.blocks.text.view: "Se block"
+contenttypes.blocks.text.wrong-use-field: "I innehållstypen 'block', fältet '%field%' har 'uses: %uses%', men fältet '%uses%' finns inte. Redigera contenttypes.yml för att lösa det."
 
 contenttypes.entries.description: "**Entries** innehållstypen kan användas för bolggar eller nyheter. Den har en teaser, som kan användas för att visa en kort sammanfattning i flöden och listningar, och besökare kan klicka vidare för att se hela inlägget. Det har också fält för en bild och en video. För att ändra fälten redigera filen `contenttypes.yml` i mappen `app/config/` med din textredigerare eller gå till 'Konfiguration' » 'Innehållstyper' i vänstermenyn."
 contenttypes.entries.group.content: "Innehåll"

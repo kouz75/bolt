@@ -83,17 +83,17 @@ $btn-tertiary-bg: desaturate(lighten($cello, 20), 12);
 $btn-tertiary-border: darken($btn-tertiary-bg, 4%);
 
 // Default button.
-//$btn-default-color: $dove;
-//$btn-default-bg: $concrete;
-//$btn-default-border: darken($btn-default-bg, 4%);
+$btn-default-color: $dove;
+$btn-default-bg: $concrete;
+$btn-default-border: darken($btn-default-bg, 4%);
 
 $btn-danger-color: $white;
 $btn-danger-bg: $tamarillo;
 $btn-danger-border: darken($btn-danger-bg, 4%);
 
-//$btn-silent-danger-color: $dove;
-//$btn-silent-danger-bg: $concrete;
-//$btn-silent-danger-border: darken($btn-danger-bg, 4%);
+$btn-silent-danger-color: $dove;
+$btn-silent-danger-bg: $concrete;
+$btn-silent-danger-border: darken($btn-danger-bg, 4%);
 
 // Special BOLT button.
 $btn-bolt-color: $white;

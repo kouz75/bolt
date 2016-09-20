@@ -30,14 +30,14 @@ $navbar-padding-horizontal: 0;
 @import "bootstrap/buttons";
 
 // Components.
-@import "bootstrap/component-animations";
+// @import "bootstrap/component-animations"; Turned of 20-09-2016
 // @import "bootstrap/glyphicons";
 @import "bootstrap/dropdowns";
 @import "bootstrap/button-groups";
 @import "bootstrap/input-groups";
 @import "bootstrap/navs";
 @import "bootstrap/navbar";
-@import "bootstrap/breadcrumbs";
+// @import "bootstrap/breadcrumbs"; Turned of 20-09-2016
 @import "bootstrap/pagination";
 @import "bootstrap/pager";
 @import "bootstrap/labels";
@@ -45,11 +45,11 @@ $navbar-padding-horizontal: 0;
 // @import "bootstrap/jumbotron";
 // @import "bootstrap/thumbnails";
 @import "bootstrap/alerts";
-@import "bootstrap/progress-bars";
+// @import "bootstrap/progress-bars"; Turned of 20-09-2016
 @import "bootstrap/media";
 @import "bootstrap/list-group";
 @import "bootstrap/panels";
-@import "bootstrap/wells";
+// @import "bootstrap/wells"; Turned of 20-09-2016
 @import "bootstrap/close";
 
 // Components w/ JavaScript.

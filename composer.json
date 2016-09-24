@@ -9,8 +9,16 @@
         "Symfony"
     ],
     "license" : "MIT",
+    "repositories": {
+        "bolt-backend": {
+            "type": "git",
+            "url": "https://github.com/bolt/backend"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require" : {
-        "bolt/backend" : "^3.3@dev",
+        "bolt/backend" : "dev-master",
         "bolt/filesystem" : "^2.0",
         "bolt/pathogen" : "~0.6",
         "bolt/thumbs" : "^3.0",

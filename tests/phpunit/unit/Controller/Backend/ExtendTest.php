@@ -28,7 +28,7 @@ class ExtendTest extends ControllerUnitTest
     public function testMethodsReturnTemplates()
     {
         $this->getApp()->flush();
-        $this->getService('twig.loader.filesystem')->prependPath(TEST_ROOT . '/app/view/twig');
+        $this->getService('twig.loader.filesystem')->prependPath(TEST_ROOT . '/vendor/bolt/backend/app/view/twig');
 
         $this->setRequest(Request::create('/bolt/extend'));
         $response = $this->controller()->overview();

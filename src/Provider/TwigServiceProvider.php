@@ -22,13 +22,13 @@ class TwigServiceProvider implements ServiceProviderInterface
                 $loader = new FilesystemLoader($app['filesystem']);
 
                 $loader->addPath('theme://', 'theme');
-                $loader->addPath('app://theme_defaults', 'theme');
-                $loader->addPath('app://view/twig', 'bolt');
+                $loader->addPath('root://vendor/bolt/backend/app/theme_defaults', 'theme');
+                $loader->addPath('root://vendor/bolt/backend/app/view/twig', 'bolt');
 
                 /** @deprecated Deprecated since 3.0, to be removed in 4.0. */
                 $loader->addPath('theme://');
-                $loader->addPath('app://theme_defaults');
-                $loader->addPath('app://view/twig');
+                $loader->addPath('root://vendor/bolt/backend/app/theme_defaults');
+                $loader->addPath('root://vendor/bolt/backend/app/view/twig');
 
                 return $loader;
             }
@@ -100,10 +100,10 @@ class TwigServiceProvider implements ServiceProviderInterface
             $app->extend(
                 'twig.loader.filesystem',
                 function ($filesystem, $app) {
-                    $filesystem->addPath($app['resources']->getPath('app/view/twig'), 'bolt');
+                    $filesystem->addPath($app['resources']->getPath('root/vendor/bolt/backend/app/view/twig'), 'bolt');
 
                     /** @deprecated Deprecated since 3.0, to be removed in 4.0. */
-                    $filesystem->addPath($app['resources']->getPath('app/view/twig'));
+                    $filesystem->addPath($app['resources']->getPath('root/vendor/bolt/backend/app/view/twig'));
 
                     return $filesystem;
                 }

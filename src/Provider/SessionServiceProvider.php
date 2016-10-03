@@ -238,7 +238,7 @@ class SessionServiceProvider implements ServiceProviderInterface
                         $conn['host'] ?: 'localhost',
                         $conn['port'] ?: 11211,
                         $conn['persistent'] ?: false,
-                        $conn['weight'] ?: 0,
+                        $conn['weight'] ?: 1,
                         $conn['timeout'] ?: 1
                     );
                 }
